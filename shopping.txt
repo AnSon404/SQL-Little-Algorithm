@@ -1,0 +1,26 @@
+create table Customer
+(cust_id int,
+name string,
+email string,
+address string,
+primary key (cust_id));
+
+create table Invoice
+(inv_id int,
+tstamp int,
+cust_id int,
+amount numeric(10,2),
+primary key (inv_id));
+
+create table Sold
+(inv_id int,
+prod_id int,
+quantity int,
+primary key (inv_id,prod_id));
+
+create table Product
+(prod_id int,
+name string,
+brand string,
+price numeric(10,2),
+primary key (prod_id));
