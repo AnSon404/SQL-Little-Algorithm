@@ -1,0 +1,5 @@
+cust_id,name,email,address
+1,James,james@yahoo.com,AB
+2,Mary,mary@gmail.com,CD
+3,Peter,peter@yahoo.com,EF
+4,Peter,peter@gmail.com,
