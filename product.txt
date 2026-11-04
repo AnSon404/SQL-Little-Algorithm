@@ -1,0 +1,5 @@
+prod_id,name,brand,price
+1,Coca Cola,CO,7.8
+2,Pepsi,PE,8.9
+3,7 Up,DP,6.5
+4,Sprite,CO,8.3
