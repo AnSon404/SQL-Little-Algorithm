@@ -1,0 +1,37 @@
+create table Student (
+Stu_num	int,
+Stu_lname string,
+Stu_fname string,
+Stu_hrs	int,
+Stu_class string,
+Stu_gpa	numeric(3,2),
+Dept_code string,
+Prof_name string,
+primary key (Stu_num));
+
+create table Enroll (
+Class_code string,
+Stu_num	int,
+Enroll_grade string,
+primary key (Stu_num, Class_code));
+
+create table Class (
+Class_code string,
+Sub_code string,
+Class_section int,
+Class_time string,
+Class_room string,
+Prof string,
+primary key (Class_code));
+
+create table Subject (
+Sub_code string,
+Dept_code string,
+Sub_title string,
+Sub_credit int,
+primary key (Sub_code));
+
+.import --csv --skip 1 student.csv Student
+.import --csv --skip 1 enroll.csv Enroll
+.import --csv --skip 1 class.csv Class
+.import --csv --skip 1 subject.csv Subject
