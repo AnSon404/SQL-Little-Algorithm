@@ -1,0 +1,11 @@
+Stu_num,Stu_lname,Stu_fname,Stu_hrs,Stu_class,Stu_gpa,Dept_code,Prof_name
+321452,Wong,Vicky,42,Second,2.84,DSAI,Codd
+322511,Ho,David,75,Third,2.05,AMA,Turing
+323868,Au,Charles,12,First,2.99,COMP,Korth
+324257,Chan,Darren,81,Third,3.27,COMP,Korth
+324258,Cheung,Jack,36,Second,2.26,DSAI,Codd
+324269,Lau,Andrew,15,First,3.09,COMP,Silberschatz
+324273,Wong,Fion,102,Fourth,2.11,COMP,Peterson
+324274,Cheng,Kelly,114,Fourth,3.15,COMP,Peterson
+324291,Lau,Vivian,111,Fourth,3.87,DSAI,Armstrong
+324299,Lee,Hacker,15,First,2.92,AMA,Turing
